@@ -37,7 +37,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
-
+.maps{text-align: center;overflow:hidden;}
 .fish-wap{text-align: center;}
 .fish{width: 50%;margin:50px auto; }
 
@@ -511,7 +511,6 @@ ul.solarsystem li.pluto {-webkit-animation-duration:120s; -moz-animation-duratio
 		position: static;
 		text-align: left;
 		margin: 0 10px 0 0;
-		float: left;
 	}
 }
 
@@ -783,7 +782,6 @@ ol {
 .header-warp {
 	max-width: 1120px;
 	height: 70px;
-	padding: 0 40px;
 	margin: 0 auto;
 
 }
@@ -1215,7 +1213,7 @@ ol {
 
 	overflow: hidden;
 }
-.maps{overflow: hidden;}
+
 
 .work-item .work-info p span {
 	position: relative;
@@ -1465,6 +1463,7 @@ ol {
 /* Medium screen : 992px. */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #timer{padding-top: 40px;}
 	.about{padding-top: 0}
 	.want{padding: 30px 0;text-align: center;}
 	.about-text {
@@ -1492,8 +1491,10 @@ ol {
 /* Tablet :768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .scene{height: 38%}
+    #timer{padding-top: 40px;}
 	.about{padding-top: 0}
-	.want{padding: 30px 0;text-align: center;}
+	.want{padding: 100px 0;text-align: center;}
 	.hero-section {
 		height: 900px;
 	}
@@ -1526,6 +1527,8 @@ ol {
 /* Large Mobile :480px. */
 
 @media only screen and (max-width: 767px) {
+    .scene{height: 38%}
+    #timer{padding-top: 40px;}
 	.about{padding-top: 0}
 	.want{padding: 30px 0;text-align: center;}
 	.responsive-switch {
@@ -1668,6 +1671,11 @@ ol {
 /* small Mobile :320px. */
 
 @media only screen and (max-width: 479px) {
+    ul.countdown{margin: 60px 0 100px 0 ; }
+    ul.countdown li span{font-size: 40px;}
+    ul.countdown li.seperator{font-size: 40px;}
+    .scene{height: 50%;}
+#timer{padding-top: 40px;}
 	.about{padding-top: 0}
 	.want{padding: 30px 0;
 		text-align: center;}
